@@ -2,7 +2,7 @@
 import java.util.Collections;
 import java.util.Scanner;
 
-public class DescendingOrder {
+public class Descending {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
        Integer[] numbers = new Integer[4];
@@ -15,3 +15,4 @@ public class DescendingOrder {
         }
     }
 }
+
