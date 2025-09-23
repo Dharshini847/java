@@ -1,0 +1,17 @@
+  import java.util.Arrays;
+import java.util.Collections;
+import java.util.Scanner;
+
+public class DescendingOrder {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+       Integer[] numbers = new Integer[4];
+        for (int i = 0; i < 4; i++) {
+            numbers[i] = sc.nextInt();
+        }
+        Arrays.sort(numbers, Collections.reverseOrder());
+        for (int num : numbers) {
+            System.out.print(num + " ");
+        }
+    }
+}
